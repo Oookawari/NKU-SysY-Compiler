@@ -1,0 +1,21 @@
+const int ascii_0 = 48;
+
+int my_getint()
+{
+    int sum = 0, c;
+
+    while (1) {
+        c = getch() - ascii_0;
+        if (c < 0 || c > 9) {
+            continue;
+        } 
+    }
+    return sum;
+}
+
+
+int main()
+{
+
+    return 0;
+}
